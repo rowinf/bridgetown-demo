@@ -1,6 +1,7 @@
 import "$styles/index.css"
 import "$styles/syntax-highlighting.css"
 import * as Turbo from "@hotwired/turbo"
+import "bridgetown-quick-search"
 
 /**
  * Adds support for declarative shadow DOM. Requires your HTML <head> to include:

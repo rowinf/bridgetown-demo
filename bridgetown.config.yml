@@ -30,5 +30,11 @@ template_engine: erb
 # update `publicPath`.
 
 # timezone: America/Los_Angeles
-# pagination:
-#   enabled: true
+pagination:
+  enabled: true
+collections:
+  states:
+    output: true
+    permalink: pretty
+    future: true
+    sort_direction: ascending
